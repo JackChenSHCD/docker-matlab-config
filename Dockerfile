@@ -1,4 +1,4 @@
-FROM daocloud.io/JackChenSHCD/docker-matlab-runtime
+FROM daocloud.io/jackchenshcd/docker-matlab-runtime
 MAINTAINER JackChenSHCD <1250140035.com>
 WORKDIR /mcr-install
 RUN ./install -mode silent -agreeToLicense yes
